@@ -1,0 +1,78 @@
+/********** Base styles **********/
+* {	
+  box-sizing: border-box;
+}
+p{
+    margin:35px;
+}
+
+h2{
+	position:absolute;
+	top:0;
+	right:0;
+	border:1px solid #000;
+	margin:0 0 10px 0;
+	padding: 0 10px;
+	text-align:center;
+	display: inline-block;
+}
+h1 {
+  font-family: 'Arial';
+  margin-bottom: 25px;
+  text-align: center;
+  color:darkgreen;
+}
+/* Simple Responsive Framework. <= 767px */
+section {
+  position:relative;
+  border: 1px solid black;
+  width: 96%;
+  height: 200px;
+  margin:0 2% 10px 2%;
+  font-family: Helvetica;
+  overflow: hidden;
+  float: left;
+}
+#sect1{
+	background:#dddddd;
+}
+#sect2{
+	background:#555555;
+}
+#sect3{
+	background:#999999;
+}
+#head1{
+	background:#ff0000;
+}
+#head2{
+	background:#00ff00;
+}
+#head3{
+	background:#0000ff;
+}
+/********** Desktop version **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 1px solid green;
+    width: 31.33%;
+    margin:0 1%;
+  }
+}
+
+/********** Tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-6 {
+    width: 48%;
+    margin:0 1% 10px 1%;
+  }
+  .col-md-12 {
+    width: 98%;
+    margin:0 1%;
+  }
+}
