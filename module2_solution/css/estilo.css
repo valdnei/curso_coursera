@@ -60,7 +60,6 @@ section {
     margin:0 1%;
   }
 }
-
 /********** Tablet version **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6, .col-md-12 {
