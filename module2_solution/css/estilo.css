@@ -25,12 +25,11 @@ h1 {
 /* Simple Responsive Framework. <= 767px */
 section {
   position:relative;
+  background: #dddddd;
   border: 1px solid black;
   width: 96%;
-  height: 200px;
   margin:0 2% 10px 2%;
   font-family: Helvetica;
-  overflow: hidden;
   float: left;
 }
 #head1{
