@@ -14,9 +14,12 @@ section{
 	margin:10px 2%;
 	padding: 3px;
 }
-h1{
-	font-size: 2em;
+.navbar-header a, h1{
+	font-size: 1.5em;
 	color: #777777;
+}
+section h2{
+	font-size: 1.4em;
 }
 div ul li{
 	background-color: #555555;
@@ -25,11 +28,4 @@ div ul li{
 div ul li:hover{
 	background-color: #ffffff;
 	color:#555555;
-}
-@media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    border: 1px solid green;
-    margin:0 1%;
-  }
 }
